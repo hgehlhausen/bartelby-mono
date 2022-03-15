@@ -1,6 +1,8 @@
 import React from 'react';
 import { useDispatch } from '../store/store';
 
+import './Editor.css';
+
 interface EditorProps {}
 
 export default function Editor(props: EditorProps) {
@@ -13,7 +15,7 @@ export default function Editor(props: EditorProps) {
   }
   
   return <form onSubmit={appendBody} className="Editor">
-    <fieldset>
+    <fieldset className='form-grid'>
       <legend>Edit Card</legend>
       Title: <input type="string" name="title" id="editor-title"
         onChange={(e) => {

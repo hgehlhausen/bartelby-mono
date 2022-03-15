@@ -4,8 +4,31 @@
 }
 .App {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 2em;
+  max-width: 8.5in;
+  border: 1px solid black;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App > .controls {
+  display: flex;
+  flex-direction: row;
+  background: grey;
+  border-bottom: 2px double black;
+}
+.App > .content {
+  display: flex;
+  flex-direction: row;
+}
+.App > .controls > .activeCard {
+  flex: 1;
+  align-items: center;
+  justify-items: center;
+  display: flex;
 }

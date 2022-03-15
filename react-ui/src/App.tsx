@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import img from './card/sword.jpg';
 
 import Card from './card/Card';
 import Preview from './preview/Preview';
@@ -22,14 +20,18 @@ function App() {
   const imageUrl = useSelector(selectActiveImageUrl);
   return (
     <div className="App">
+      <div className="controls">
       <Editor />
+      <div className="activeCard">
       <Card
         imageUrl={imageUrl}
         title={title}
         bar={bar}
         rule={rule}
       />
-      <Preview />
+      </div>
+      </div>
+      <div className="content"><Preview /></div>
     </div>
   );
 }

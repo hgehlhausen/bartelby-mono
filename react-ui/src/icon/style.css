@@ -211,7 +211,7 @@
 .icon-infinite:before {
   content: "\ea2f";
 }
-.icon-radio-checked:before {
+.icon-radio-checked:before, .icon-o:before {
   content: "\ea54";
 }
 .icon-radio-unchecked:before, .icon-O:before {

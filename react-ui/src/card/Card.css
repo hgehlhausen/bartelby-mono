@@ -9,6 +9,8 @@
   background-size: cover;
   background-position: center center;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Card > .title {
