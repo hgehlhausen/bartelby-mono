@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia;
+}
+.App {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+}

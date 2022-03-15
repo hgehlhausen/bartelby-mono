@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'pathcard';
+  src:  url('fonts/pathcard.eot?kzpaoa');
+  src:  url('fonts/pathcard.eot?kzpaoa#iefix') format('embedded-opentype'),
+    url('fonts/pathcard.ttf?kzpaoa') format('truetype'),
+    url('fonts/pathcard.woff?kzpaoa') format('woff'),
+    url('fonts/pathcard.svg?kzpaoa#pathcard') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pathcard' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quill:before {
+  content: "\e907";
+}
+.icon-droplet:before, .icon-bleed:before {
+  content: "\e90b";
+}
+.icon-headphones:before {
+  content: "\e910";
+}
+.icon-music:before, .icon-sonic:before {
+  content: "\e911";
+}
+.icon-dice:before, .icon-roll:before {
+  content: "\e915";
+}
+.icon-stack:before {
+  content: "\e92e";
+}
+.icon-price-tag:before {
+  content: "\e935";
+}
+.icon-price-tags:before {
+  content: "\e936";
+}
+.icon-ticket:before {
+  content: "\e939";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-coin-dollar:before {
+  content: "\e93b";
+}
+.icon-location:before, .icon-v:before {
+  content: "\e947";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-compass2:before {
+  content: "\e94a";
+}
+.icon-clock:before, .icon-duration:before {
+  content: "\e94e";
+}
+.icon-bell:before {
+  content: "\e951";
+}
+.icon-database:before, .icon-stack:before {
+  content: "\e964";
+}
+.icon-undo2:before {
+  content: "\e967";
+}
+.icon-redo2:before {
+  content: "\e968";
+}
+.icon-forward:before {
+  content: "\e969";
+}
+.icon-reply:before {
+  content: "\e96a";
+}
+.icon-bubble2:before {
+  content: "\e96e";
+}
+.icon-bubbles3:before, .icon-speach:before {
+  content: "\e96f";
+}
+.icon-spinner5:before {
+  content: "\e97e";
+}
+.icon-spinner6:before {
+  content: "\e97f";
+}
+.icon-spinner8:before {
+  content: "\e981";
+}
+.icon-enlarge:before {
+  content: "\e989";
+}
+.icon-shrink:before {
+  content: "\e98a";
+}
+.icon-enlarge2:before {
+  content: "\e98b";
+}
+.icon-shrink2:before {
+  content: "\e98c";
+}
+.icon-wrench:before {
+  content: "\e991";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-cogs:before {
+  content: "\e995";
+}
+.icon-hammer:before, .icon-A:before {
+  content: "\e996";
+}
+.icon-magic-wand:before, .icon-M:before {
+  content: "\e997";
+}
+.icon-aid-kit:before, .icon-heal:before {
+  content: "\e998";
+}
+.icon-bug:before, .icon-creature:before {
+  content: "\e999";
+}
+.icon-glass:before {
+  content: "\e9a0";
+}
+.icon-spoon-knife:before, .icon-equip:before {
+  content: "\e9a3";
+}
+.icon-leaf:before {
+  content: "\e9a4";
+}
+.icon-hammer2:before, .icon-a:before {
+  content: "\e9a8";
+}
+.icon-target:before, .icon-T:before {
+  content: "\e9b3";
+}
+.icon-shield:before, .icon-D:before {
+  content: "\e9b4";
+}
+.icon-power:before, .icon-E:before {
+  content: "\e9b5";
+}
+.icon-switch:before {
+  content: "\e9b6";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-eye:before {
+  content: "\e9ce";
+}
+.icon-eye-blocked:before {
+  content: "\e9d1";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+}
+.icon-bookmarks:before {
+  content: "\e9d3";
+}
+.icon-warning:before {
+  content: "\ea07";
+}
+.icon-notification:before {
+  content: "\ea08";
+}
+.icon-question:before {
+  content: "\ea09";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-info:before {
+  content: "\ea0c";
+}
+.icon-blocked:before {
+  content: "\ea0e";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-checkmark2:before {
+  content: "\ea11";
+}
+.icon-play3:before {
+  content: "\ea1c";
+}
+.icon-stop2:before {
+  content: "\ea1e";
+}
+.icon-volume-high:before {
+  content: "\ea26";
+}
+.icon-infinite:before {
+  content: "\ea2f";
+}
+.icon-radio-checked:before {
+  content: "\ea54";
+}
+.icon-radio-unchecked:before, .icon-O:before {
+  content: "\ea56";
+}
+.icon-omega:before {
+  content: "\ea66";
+}
+.icon-safari:before {
+  content: "\eadd";
+}

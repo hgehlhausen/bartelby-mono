@@ -1,0 +1,34 @@
+{
+  "name": "bartelby-mono",
+  "version": "0.0.0",
+  "description": "A mono-repo which I will detail how to manage Pathfinder 1e stats and characters in a database, and render in both angular 12 and react 17+ UIs along with a node-express service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgehlhausen/bartelby-mono.git"
+  },
+  "keywords": [
+    "pathfinder1",
+    "pathfinder",
+    "example",
+    "mongodb",
+    "expressjs",
+    "node"
+  ],
+  "author": "Heath Gildwel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hgehlhausen/bartelby-mono/issues"
+  },
+  "homepage": "https://github.com/hgehlhausen/bartelby-mono#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "reselect": "^4.1.5"
+  }
+}

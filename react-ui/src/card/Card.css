@@ -1,0 +1,59 @@
+.Card {
+  text-align: left;
+  width: 2.5in;
+  height: 3.5in;
+  position: relative;
+  background-color: black;
+  border-radius: 0.125in;
+  border: 1px solid black;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.Card > .title {
+  font-weight: bold;
+  font-size: 12pt;
+  text-shadow: grey 1px 1px 0;
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 2.5in;
+  padding-top: 0.0625in;
+  padding-bottom: 0.03125in;
+  padding-left: 0.3em;
+  background: linear-gradient(0deg, 
+  rgba(255,255,255,0.55) 0%, 
+  rgba(0,0,0,0.9) 100%)
+}
+
+.Card > .rule {
+  position: absolute;
+  font-size: 10pt;
+  bottom: 0.03125in;
+  left: 0.03125in;
+  /* height: 2in; */
+  width: calc(2.5in - 0.0625in);
+  color: black;
+  text-shadow: 0px 0px 2px rgb(90, 90, 90);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 0.0625in;
+  padding-left: 0.0625in;
+  padding-right: 0.0625in;
+  padding-top: 0.0625in;
+  border-radius: 0.0625in;
+  white-space: pre-line;
+}
+.Card > .bar {
+  background-color: rgba(255,255,255,0.8);
+  height: 0.25in;
+  position:absolute;
+  top: 1.68em;
+  /* bottom: 2.03125in; */
+  left:0;
+  width: 2.5in;
+  padding-top: 0.1em;
+  padding-left: 0.2em;
+  border-bottom: 2px solid white;
+}

@@ -1,0 +1,336 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-quill {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-droplet {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-headphones {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-music {
+  width: 32px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.icon-dice {
+  width: 32px;
+  height: 32px;
+  background-position: -192px 0;
+}
+.icon-stack {
+  width: 32px;
+  height: 32px;
+  background-position: -240px 0;
+}
+.icon-price-tag {
+  width: 32px;
+  height: 32px;
+  background-position: -288px 0;
+}
+.icon-price-tags {
+  width: 40px;
+  height: 32px;
+  background-position: -336px 0;
+}
+.icon-ticket {
+  width: 32px;
+  height: 32px;
+  background-position: -384px 0;
+}
+.icon-cart {
+  width: 32px;
+  height: 32px;
+  background-position: -432px 0;
+}
+.icon-coin-dollar {
+  width: 32px;
+  height: 32px;
+  background-position: -480px 0;
+}
+.icon-location {
+  width: 32px;
+  height: 32px;
+  background-position: -528px 0;
+}
+.icon-compass {
+  width: 32px;
+  height: 32px;
+  background-position: -576px 0;
+}
+.icon-compass2 {
+  width: 32px;
+  height: 32px;
+  background-position: -624px 0;
+}
+.icon-clock {
+  width: 32px;
+  height: 32px;
+  background-position: -672px 0;
+}
+.icon-bell {
+  width: 32px;
+  height: 32px;
+  background-position: -720px 0;
+}
+.icon-database {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -48px;
+}
+.icon-undo2 {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -48px;
+}
+.icon-redo2 {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -48px;
+}
+.icon-forward {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -48px;
+}
+.icon-reply {
+  width: 32px;
+  height: 32px;
+  background-position: -192px -48px;
+}
+.icon-bubble2 {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -48px;
+}
+.icon-bubbles3 {
+  width: 36px;
+  height: 32px;
+  background-position: -288px -48px;
+}
+.icon-spinner5 {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -48px;
+}
+.icon-spinner6 {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -48px;
+}
+.icon-spinner8 {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -48px;
+}
+.icon-enlarge {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -48px;
+}
+.icon-shrink {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -48px;
+}
+.icon-enlarge2 {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -48px;
+}
+.icon-shrink2 {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -48px;
+}
+.icon-wrench {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -48px;
+}
+.icon-cog {
+  width: 32px;
+  height: 32px;
+  background-position: -720px -48px;
+}
+.icon-cogs {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -96px;
+}
+.icon-hammer {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -96px;
+}
+.icon-magic-wand {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -96px;
+}
+.icon-aid-kit {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -96px;
+}
+.icon-bug {
+  width: 32px;
+  height: 32px;
+  background-position: -192px -96px;
+}
+.icon-glass {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -96px;
+}
+.icon-spoon-knife {
+  width: 32px;
+  height: 32px;
+  background-position: -288px -96px;
+}
+.icon-leaf {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -96px;
+}
+.icon-hammer2 {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -96px;
+}
+.icon-target {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -96px;
+}
+.icon-shield {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -96px;
+}
+.icon-power {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -96px;
+}
+.icon-switch {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -96px;
+}
+.icon-link {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -96px;
+}
+.icon-eye {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -96px;
+}
+.icon-eye-blocked {
+  width: 32px;
+  height: 32px;
+  background-position: -720px -96px;
+}
+.icon-bookmark {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -144px;
+}
+.icon-bookmarks {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -144px;
+}
+.icon-warning {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -144px;
+}
+.icon-notification {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -144px;
+}
+.icon-question {
+  width: 32px;
+  height: 32px;
+  background-position: -192px -144px;
+}
+.icon-plus {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -144px;
+}
+.icon-info {
+  width: 32px;
+  height: 32px;
+  background-position: -288px -144px;
+}
+.icon-blocked {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -144px;
+}
+.icon-checkmark {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -144px;
+}
+.icon-checkmark2 {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -144px;
+}
+.icon-play3 {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -144px;
+}
+.icon-stop2 {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -144px;
+}
+.icon-volume-high {
+  width: 34px;
+  height: 32px;
+  background-position: -576px -144px;
+}
+.icon-infinite {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -144px;
+}
+.icon-radio-checked {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -144px;
+}
+.icon-radio-unchecked {
+  width: 32px;
+  height: 32px;
+  background-position: -720px -144px;
+}
+.icon-omega {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -192px;
+}
+.icon-safari {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -192px;
+}
+

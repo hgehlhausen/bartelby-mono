@@ -1,0 +1,10 @@
+.Preview {
+  flex: 1;
+  width: 7.5in;
+  height: 10in;
+}
+.Preview > .Card {
+  float: left;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
