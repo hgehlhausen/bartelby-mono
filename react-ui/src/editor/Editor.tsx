@@ -1,4 +1,5 @@
 import React from 'react';
+import { v4 as uuid } from 'uuid';
 import { useDispatch } from '../store/store';
 
 import './Editor.css';
@@ -10,6 +11,7 @@ export default function Editor(props: EditorProps) {
   
   function appendBody(e: React.FormEvent) {
     e.preventDefault();
+    dispatch({ type: 'setActiveId', payload: uuid() })
     dispatch({ type: 'pushCard' });
     return undefined;
   }
