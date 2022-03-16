@@ -2,6 +2,7 @@ import React, {
   useReducer,
   Dispatch,
 } from 'react';
+import { idText } from 'typescript';
 
 import { CardProps } from '../card/Card';
 
@@ -19,6 +20,7 @@ const initialQueue = localStorage.getItem('bartelby-mono-queue');
 
 const initialState = {
   active: {
+    id: '',
     title: '',
     bar: '',
     rule: '',
@@ -33,6 +35,15 @@ const reducer = (state: StoreState, action: Action) => {
   const { type, payload } = action;
   history.push([type, payload, Date.now()]);
   switch (action.type) {
+    case 'removeCard': {
+      const queue = state.queue.filter(card => card.id !== payload);
+      console.log('removeCard', payload, state.queue.map(({id}) => id));
+      localStorage.setItem('bartelby-mono-queue', JSON.stringify(queue))
+      return ({
+        ...state,
+        queue,
+      });
+    }
     case 'pushCard': {
       const queue = [...state.queue, { ...state.active }];
       localStorage.setItem('bartelby-mono-queue', JSON.stringify(queue))
@@ -72,6 +83,14 @@ const reducer = (state: StoreState, action: Action) => {
           ...state.active,
           title: payload,
         },
+      });
+    case 'setActiveId':
+      return ({
+        ...state,
+        active: {
+          ...state.active,
+          id: payload,
+        }
       });
     default:
       return state;
