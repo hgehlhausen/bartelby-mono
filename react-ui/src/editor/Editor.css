@@ -16,3 +16,9 @@
   grid-template-columns: 25% 75%;
   grid-template-rows: 5;
 }
+
+@media print {
+  .Editor {
+    display: none;
+  }
+}
