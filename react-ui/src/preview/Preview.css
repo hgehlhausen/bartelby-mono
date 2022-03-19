@@ -1,10 +1,41 @@
 .Preview {
   flex: 1;
-  width: 7.5in;
-  height: 10in;
 }
-.Preview > .Card {
+.Preview > .page {
+  width: 8.5in;
+  height: 11in;
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 1px solid black;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  zoom: 30%;
+  margin: 5px;
   float: left;
-  margin-right: 1px;
-  margin-bottom: 1px;
+}
+.Preview > .page > .Card {
+  background-color: #EEE;
+}
+@media print {
+  .Preview {
+    border: none;
+    padding: 0;
+    margin: 0;
+    -webkit-print-color-adjust: exact;
+  }
+  .Preview > .page {
+    zoom: 100%!important;
+    margin: 0;
+    page-break-after: always;
+    border-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+  }
+  .Preview > .page > .Card {
+    margin: 0;
+  }
 }

@@ -32,3 +32,12 @@
   justify-items: center;
   display: flex;
 }
+
+@media print {
+  .App {
+    border: 0;
+  }
+  .App > .controls {
+    display: none;
+  }
+}
