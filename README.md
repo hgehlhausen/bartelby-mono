@@ -3,4 +3,4 @@ A monorepo demonstrating my abilities as a full-stack developer using javascript
 
 This is a card maker for Pen & Paper RPG's
 
-<img src="./screenshot.png" />
+<img src="./screenshot-2.png" />
